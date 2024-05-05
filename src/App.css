@@ -1,0 +1,39 @@
+body{
+  /* background-color: black; */
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+}
+
+.Currency-converter{
+  background-color: aqua;
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: blue;
+}
+.Currency-converter h2{
+  font-size: 20px;
+  font-weight: 500;
+  
+
+}
+/* .Amount{
+
+} */
+.FromCurrency{
+  display: flex;
+  flex-direction: column;
+}
+.FromCurrency select{
+  width: 50%;
+  margin: 5px;
+
+}
+.tocurrency select{
+  width: 50%;
+  margin: 5px;
+  
+}
